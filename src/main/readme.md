@@ -1,4 +1,4 @@
-a20498639 lab4 README
+a20498639 lab4 README.md
 
 1.Your understanding of the difference between the forward and redirect operations.
 
