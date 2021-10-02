@@ -1,7 +1,4 @@
-package edu.iit.sat.itmd4515.a20498639.web;
-
-
-import edu.iit.sat.itmd4515.a20498639.domain.Country;
+package edu.iit.sat.itmd4515.a20498639.lab4;
 
 
 import javax.annotation.Resource;
@@ -80,8 +77,6 @@ public class CountryServlet extends HttpServlet {
         } else {
             // there are no validation failures, therefore set the validated pojo as a request attribute
             request.setAttribute("country", country);
-
-//                createACountry(country);
 
             RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/views/conf.jsp");
             dispatcher.forward(request, response);

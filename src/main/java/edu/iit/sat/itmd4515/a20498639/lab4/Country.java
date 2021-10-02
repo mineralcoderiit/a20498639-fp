@@ -1,4 +1,4 @@
-package edu.iit.sat.itmd4515.a20498639.domain;
+package edu.iit.sat.itmd4515.a20498639.lab4;
 
 import javax.validation.constraints.*;
 
